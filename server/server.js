@@ -1,6 +1,8 @@
 require('./config/config');
 
-const { app } = require('./routes/usuario');
+// configuracion global de rutas
+const { app } = require('./routes/index');
+
 // mongoose
 const mongoose = require('mongoose');
 
