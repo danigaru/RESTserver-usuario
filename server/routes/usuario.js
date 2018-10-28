@@ -50,7 +50,6 @@ app.get('/usuario', verificaToken, (req, res) => {
 
             });
 
-
         });
 
 });
